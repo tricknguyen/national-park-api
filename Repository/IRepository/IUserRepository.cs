@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Park.Repository.IRepository
 {
-    interface IUserRepository
+    public interface IUserRepository
     {
         bool IsUniqueUser(string name);
         User Authenticate(string username, string password);

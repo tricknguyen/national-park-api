@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Park.Models;
@@ -72,6 +73,7 @@ namespace Park.Controllers
         [ProducesResponseType(200, Type = typeof(TrailDto))]
         [ProducesResponseType(404)]
         [ProducesDefaultResponseType]
+        [Authorize(Roles="Admin")]
         public IActionResult GetTrailInNationalPark(int nationalParkId)
         {
             var objList = _trailRepo.GetTrailsInNationalPark(nationalParkId);

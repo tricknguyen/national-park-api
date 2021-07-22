@@ -22,7 +22,6 @@ D:\.NET\API\Park\Park\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
 D:\.NET\API\Park\Park\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 D:\.NET\API\Park\Park\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
 D:\.NET\API\Park\Park\bin\Debug\net5.0\Microsoft.OpenApi.dll
-D:\.NET\API\Park\Park\bin\Debug\net5.0\Newtonsoft.Json.dll
 D:\.NET\API\Park\Park\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
 D:\.NET\API\Park\Park\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 D:\.NET\API\Park\Park\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
@@ -64,3 +63,4 @@ D:\.NET\API\Park\Park\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.Dependenc
 D:\.NET\API\Park\Park\bin\Debug\net5.0\Park.xml
 D:\.NET\API\Park\Park\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.Versioning.dll
 D:\.NET\API\Park\Park\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer.dll
+D:\.NET\API\Park\Park\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
